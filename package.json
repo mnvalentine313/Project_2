@@ -1,0 +1,27 @@
+{
+  "name": "project_2",
+  "version": "1.0.0",
+  "description": "--- #### Description This is the second, independent project completed in General Assmebly's Software Engineering Immersive program and it covers building an app using Express, Handlebars, and Mongoose. This project also features some HTML and CSS for layout and styling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emme313/Project_2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emme313/Project_2/issues"
+  },
+  "homepage": "https://github.com/Emme313/Project_2#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.4.2",
+    "hbs": "^4.0.5",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.7.3",
+    "router": "^1.3.3"
+  }
+}

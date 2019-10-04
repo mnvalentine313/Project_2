@@ -1,0 +1,100 @@
+[
+    {
+        "name": "JuneBaby",
+        "type": "Restaurant",
+        "owner": "Edouardo Jordan",
+        "neighborhood": "Ravenna",
+        "description": "Southern food with a side of history.",
+        "url": "https://www.junebabyseattle.com",
+        "facebook": "https://www.facebook.com/JuneBabySeattle/",
+        "instagram": "https://www.instagram.com/junebabyseattle/"
+    },
+    {
+        "name": "Salare",
+        "type": "Restaurant",
+        "owner": "Edouardo Jordan",
+        "neighborhood": "Ravenna",
+        "description": "Chef-driven neighborhood joint featuring the culinary influences of America's South, Africa, Europe, and the Caribbean Islands.",
+        "url": "https://salarerestaurant.com/",
+        "facebook": "https://www.facebook.com/salarerestaurant",
+        "instagram": "https://instagram.com/salareseattle"
+    },
+    {
+        "name": "Island Soul",
+        "type": "Restaurant",
+        "owner": "Theo Martin",
+        "neighborhood": "Columbia City",
+        "description": "Family-owned restaurant featuring Caribbean-inspired soul food.",
+        "url": "https://www.islandsoulrestaurant.com/",
+        "facebook": "https://www.facebook.com/135118209750",
+        "instagram": "https://www.instagram.com/islandsoulshack"
+    },
+    {
+        "name": "Mr. Naturalz Salon",
+        "type": "Salons/Barbers",
+        "owner": "Rueben 'Rue Styles' Turk",
+        "neighborhood": "Renton",
+        "description": "Natural hair salon for curly, kinky, and dreadlocked people",
+        "url": "https://www.mrnaturalz.com/",
+        "facebook": "https://www.facebook.com/mrnaturalz/",
+        "instagram": "https://www.instagram.com/mrnaturalz"
+    },
+    {
+        "name": "Andro Barbershop",
+        "type": "Salons/Barbers",
+        "owner": "Kelli Wimbley",
+        "neighborhood": "Pioneer Square",
+        "description": "Natural hair salon for curly, kinky, and dreadlocked people",
+        "url": "https://www.androbarbershop.com/",
+        "facebook": "https://www.facebook.com/Andro-Barbershop-179970068012706/",
+        "instagram": "https://www.instagram.com/androbarbershop"
+    },
+    {
+        "name": "Six17 Salon",
+        "type": "Salons/Barbers",
+        "owner": "Jackie Christian",
+        "neighborhood": "Pioneer Square",
+        "description": "Textured hair salon specializing in all varieties of coils, kinks, and curls.",
+        "url": "https://www.vagaro.com/six17",
+        "facebook": "https://www.facebook.com/six17salon"
+    },
+    {
+        "name": "Oshun Swim School",
+        "type": "Health/Services",
+        "owner": "Chandrika Francis",
+        "neighborhood": "Renton with other locations",
+        "description": "Swim classes for marginalized groups including Black womxn, womxn of color and queer womxn, non-binary, and trans individuals.",
+        "url": "https://www.oshunswimschool.com/",
+        "facebook": "https://www.facebook.com/Oshun-Swim-School-721313671553715",
+        "instagram": "https://instagram.com/oshunswimschool"
+    },
+    {
+        "name": "Trap Vinyasa",
+        "type": "Health/Services",
+        "owner": "Chandrika Francis",
+        "neighborhood": "Ranton with other locations",
+        "description": "High-energy yoga fitness class combining  yoga asana with sensual dance, boxing and body weight exercises designed to help you explore sensuality.",
+        "url": "https://www.trapvinyasa.com/",
+        "facebook": "https://www.facebook.com/trapvinyasa/",
+        "instagram": "https://instagram.com/trapvinyasa"
+    },
+    {
+        "name": "Nile's Edge",
+        "type": "Health/Services",
+        "owner": "Katrina Sanford, Psy.D., Aishe' Keita, and Sadiqua Iman",
+        "neighborhood": "Central District",
+        "description": "Healing arts center focused on de-colonizing health and education so that under-served communities can holistically flourish.",
+        "url": "https://www.nilesedge.com/",
+        "facebook": "https://www.facebook.com/nilesedge/"
+    },
+    {
+        "name": "Laidback Allure",
+        "type": "Health/Services",
+        "owner": "Anthony Ukaogo, Jr.",
+        "neighborhood": "Ranton with other locations",
+        "description": "A lifestyle collective inspiring well-curated living.",
+        "url": "https://laidbackallure.com/",
+        "facebook": "https://www.facebook.com/laidbackallure",
+        "instagram": "https://instagram.com/laidbackallure"
+    }
+]

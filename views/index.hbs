@@ -1,0 +1,11 @@
+<h1>BXPNW</h1>
+<h2>Black by Pacific Northwest</h2>
+<h3>A Guide to Black-Owned Businesses in the Seattle Metro Area</h3>
+
+<div>
+    {{#each businesses }}
+    <p><a href="/{{this.id}}">{{this.name}}</a></p>
+    {{/each}}
+</div>
+
+<a href="/new" class="update">Add to this list!</a>

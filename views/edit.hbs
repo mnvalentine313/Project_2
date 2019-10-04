@@ -1,0 +1,37 @@
+<h1>Editing: {{ this.name }}</h1>
+
+<form action="/{{this.id}}?_method=put" method="post">
+  <p>
+    <label>Business Type:</label>
+    <input type="text" value="{{this.type}}" name="type"/>
+  </p>
+    <p>
+    <label>Owned by:</label>
+    <input type="text" value="{{this.owner}}" name="owner"/>
+  </p>
+    <p>
+    <label>Location:</label>
+    <input type="text" value="{{this.neighborhood}}" name="neighborhood"/>
+  </p>
+  <p>
+    <label>Description:</label>
+    <input type="text" value="{{this.description}}" name="description"/>
+  </p>
+    <p>
+    <label>Website:</label>
+    <input type="text" value="{{this.url}}" name="url"/>
+  </p>
+    <p>
+    <label>Facebook:</label>
+    <input type="text" value="{{this.facebook}}" name="facebook"/>
+  </p>
+    <p>
+    <label>Instagram:</label>
+    <input type="text" value="{{this.instagram}}" name="instagram"/>
+  </p>
+  <div id="buttons"><input type="submit" value="Update" />
+</form>
+</br>
+<form action="/{{this.id}}?_method=delete" method="post">
+  <input type="submit" value="Remove"></div>
+</form>
