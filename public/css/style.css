@@ -2,9 +2,7 @@
 font-family: 'Economica', sans-serif; */
 
 body {
-    /* background-image: url("https://static.vecteezy.com/system/resources/previews/000/086/896/large_2x/free-vector-seattle-city-skyline.jpg"); */
-    
-    background-color: #B8E2E5;   
+    background-color: #B1D6D8;   
 }
 
 body::after {
@@ -25,18 +23,34 @@ body::after {
 
 h1, h2, h3 {
     font-family: "Dokdo", cursive;
-    color: white; 
+    color: #000000; 
+    text-shadow: 2px 2px #FFDFD3;
     margin: 0 auto;
+    text-align: center;
 }
 
-a, p {
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+a, p, b, #text {
     font-family: "Economica", sans-serif;
-    color: white;
-    text-decoration: none
+    font-size: 1.4em;
+    color: #F5FAFA;
+    text-shadow: 2px 2px #868A8B;
+    text-decoration: none;
 }
 
 a:hover {
-    color: rgb(255, 217, 0);
+    color: #FFDFD3;
 }
 
 .update {
@@ -52,13 +66,13 @@ input[type=text] {
     margin: 8px 0;
     box-sizing: border-box;
     font-family: "Economica", sans-serif;
-    color: #B8E2E5;
+    color:#4682B4;
 }
 
 input[type=submit] {
-    background-color: #B8E2E5;
+    background-color:#4682B4;
     color: white;
     display: inline;
-    border: 1px solid black;
-    border-radius: 4px;
+    /* border: 1px solid black; */
+    /* border-radius: 4px; */
 }
