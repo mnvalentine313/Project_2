@@ -14,7 +14,7 @@ router.get("/new", (req, res) => {
 
 router.get("/:id", (req, res) => {
     Businesses.findOne({ _id: req.params.id}).
-    then(businesses => res.render("show", businesses))
+    then(business => res.render("show", business))
 });
 
 router.post("/", (req, res) => {
@@ -39,9 +39,9 @@ router.put("/:id", (req, res) => {
     })
 });
 
-// router.delete("/:id", (req, res) => {
-//     Businesses.findOneAndRemove({_id: req.params.id})
-//     .then(() => {
-//         res.redirect("/")
-//     })
-// });
+router.delete("/:id", (req, res) => {
+    Businesses.findOneAndRemove({_id: req.params.id})
+    .then(() => {
+        res.redirect("/")
+    })
+});
