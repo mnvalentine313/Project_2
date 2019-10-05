@@ -1,0 +1,64 @@
+/* font-family: 'Dokdo', cursive;
+font-family: 'Economica', sans-serif; */
+
+body {
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/000/086/896/large_2x/free-vector-seattle-city-skyline.jpg"); */
+    
+    background-color: #B8E2E5;   
+}
+
+body::after {
+    content: "";
+    background: url("https://static.vecteezy.com/system/resources/previews/000/086/896/large_2x/free-vector-seattle-city-skyline.jpg");
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+h1, h2, h3 {
+    font-family: "Dokdo", cursive;
+    color: white; 
+    margin: 0 auto;
+}
+
+a, p {
+    font-family: "Economica", sans-serif;
+    color: white;
+    text-decoration: none
+}
+
+a:hover {
+    color: rgb(255, 217, 0);
+}
+
+.update {
+    text-decoration: underline;
+}
+
+#buttons {
+    display: inline-grid;
+}
+
+input[type=text] {
+    width: 40%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: "Economica", sans-serif;
+    color: #B8E2E5;
+}
+
+input[type=submit] {
+    background-color: #B8E2E5;
+    color: white;
+    display: inline;
+    border: 1px solid black;
+    border-radius: 4px;
+}

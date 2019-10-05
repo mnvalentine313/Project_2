@@ -20,6 +20,7 @@ app.use(methodOverride("_method"));
 
 // Everything but the port goes above this!
 app.use("/", businessController);
+app.use(express.static("public"));
 
 // Tell which port on which to listen
 app.listen(8080, () => console.log("Running on port 8080."));
