@@ -1,4 +1,6 @@
 <h1>Editing: {{ this.name }}</h1>
+
+<section class="pagedivs">
 <a href="/{{this.id}}" class="home">I've made a mistake! Take me back, please.</a>
 
 <form action="/{{this.id}}?_method=put" method="post">
@@ -36,3 +38,4 @@
 <form action="/{{this.id}}?_method=delete" method="post">
   <input type="submit" value="Remove"></div>
 </form>
+</section>

@@ -47,7 +47,6 @@ a, p, b, #text, label {
     color: #F5FAFA;
     text-shadow: 2px 2px #868A8B;
     text-decoration: none;
-
 }
 
 a:hover {
@@ -56,8 +55,9 @@ a:hover {
 
 .update {
     text-decoration: underline;
-    /* display: block; */
     margin: 15px auto;
+    display: flex;
+    justify-content: center;
 }
 
 input[type=text] {
@@ -72,6 +72,7 @@ input[type=text] {
 #buttons {
     display: flex;
     justify-content: center;
+    cursor: grab;
 }
 
 input[type=submit] {
@@ -100,4 +101,8 @@ input[type=submit] {
     padding: 10px;
     border: 1px solid #FFDFD3;
     background-color: rgba(255, 225, 211, .4)
+}
+
+.pagedivs {
+    margin: auto auto auto 15px;
 }
