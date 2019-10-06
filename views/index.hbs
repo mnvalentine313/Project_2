@@ -2,10 +2,14 @@
 <h2>Black by Pacific Northwest</h2>
 <h3>A Guide to Black-Owned Businesses in the Seattle Metro Area</h3>
 
-<div>
+<div class="container">
     {{#each businesses }}
-    <p><a class="homelinks" href="/{{this.id}}">{{this.name}}</a></p>
+    <p class="homelinks"><a href="/{{this.id}}">{{this.name}}</a></p>
     {{/each}}
 </div>
-
+<div>
 <a href="/new" class="update">Add to this list!</a>
+</div>
+<footer>
+<a id="credit" href="https://www.vecteezy.com/free-vector/seattle">Seattle Vectors by Vecteezy</a>
+</footer>

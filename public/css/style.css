@@ -47,6 +47,7 @@ a, p, b, #text {
     color: #F5FAFA;
     text-shadow: 2px 2px #868A8B;
     text-decoration: none;
+
 }
 
 a:hover {
@@ -75,4 +76,20 @@ input[type=submit] {
     display: inline;
     /* border: 1px solid black; */
     /* border-radius: 4px; */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: auto;
+    grid-auto-rows: minmax(75px, auto);
+    margin: 50px 10px 10px 10px;
+}
+
+.homelinks {
+    padding: 10px;
+    border: 1px solid #FFDFD3;
+    background-color: rgba(255, 225, 211, .4)
 }
