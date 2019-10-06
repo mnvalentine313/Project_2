@@ -4,7 +4,8 @@
   "description": "--- #### Description This is the second, independent project completed in General Assmebly's Software Engineering Immersive program and it covers building an app using Express, Handlebars, and Mongoose. This project also features some HTML and CSS for layout and styling.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",

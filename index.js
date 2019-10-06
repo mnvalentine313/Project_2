@@ -23,4 +23,10 @@ app.use("/", businessController);
 app.use(express.static("public"));
 
 // Tell which port on which to listen
-app.listen(8080, () => console.log("Running on port 8080."));
+// app.listen(8080, () => console.log("Running on port 8080."));
+
+app.set("port", process.env.PORT || 8080);
+
+app.listen(app.get("port"), () => {
+  console.log(`PORT: ${app.get("port")}`);
+});
