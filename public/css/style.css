@@ -41,7 +41,7 @@ h3 {
     font-size: 1.75em;
 }
 
-a, p, b, #text {
+a, p, b, #text, label {
     font-family: "Economica", sans-serif;
     font-size: 1.4em;
     color: #F5FAFA;
@@ -56,26 +56,34 @@ a:hover {
 
 .update {
     text-decoration: underline;
-}
-
-#buttons {
-    display: inline-grid;
+    /* display: block; */
+    margin: 15px auto;
 }
 
 input[type=text] {
-    width: 40%;
+    width: 70%;
     margin: 8px 0;
-    box-sizing: border-box;
     font-family: "Economica", sans-serif;
-    color:#4682B4;
+    font-size: 1em;
+    background-color:rgba(255, 225, 211, .5);
+    color:#000000;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
 }
 
 input[type=submit] {
-    background-color:#4682B4;
-    color: white;
-    display: inline;
-    /* border: 1px solid black; */
-    /* border-radius: 4px; */
+    font-family: "Dokdo", cursive;    
+    background-color: #FFDFD3;
+    border: none;
+    color: #000000;
+    margin: 15px;
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;    
 }
 
 .container {
@@ -83,7 +91,7 @@ input[type=submit] {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 10px;
-    grid-row-gap: auto;
+    grid-row-gap: a;
     grid-auto-rows: minmax(75px, auto);
     margin: 50px 10px 10px 10px;
 }

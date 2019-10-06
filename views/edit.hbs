@@ -1,32 +1,33 @@
 <h1>Editing: {{ this.name }}</h1>
+<a href="/{{this.id}}" class="home">I've made a mistake! Take me back, please.</a>
 
 <form action="/{{this.id}}?_method=put" method="post">
   <p>
-    <label>Business Type:</label>
+    <label>Business Type: </label></br>
     <input type="text" value="{{this.type}}" name="type"/>
   </p>
     <p>
-    <label>Owned by:</label>
+    <label>Owned by: </label></br>
     <input type="text" value="{{this.owner}}" name="owner"/>
   </p>
     <p>
-    <label>Location:</label>
+    <label>Location: </label></br>
     <input type="text" value="{{this.neighborhood}}" name="neighborhood"/>
   </p>
   <p>
-    <label>Description:</label>
+    <label>Description: </label></br>
     <input type="text" value="{{this.description}}" name="description"/>
   </p>
     <p>
-    <label>Website:</label>
+    <label>Website: </label></br>
     <input type="text" value="{{this.url}}" name="url"/>
   </p>
     <p>
-    <label>Facebook:</label>
+    <label>Facebook: </label></br>
     <input type="text" value="{{this.facebook}}" name="facebook"/>
   </p>
     <p>
-    <label>Instagram:</label>
+    <label>Instagram: </label></br>
     <input type="text" value="{{this.instagram}}" name="instagram"/>
   </p>
   <div id="buttons"><input type="submit" value="Update" />
@@ -35,4 +36,3 @@
 <form action="/{{this.id}}?_method=delete" method="post">
   <input type="submit" value="Remove"></div>
 </form>
-<a href="/{{this.id}}" class="home">I've made a mistake! Take me back, please.</a>
