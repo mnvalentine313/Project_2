@@ -46,6 +46,14 @@ a, p, b, #text, label {
     text-decoration: none;
 }
 
+.home {
+    font-family: "Economica", sans-serif;
+    font-size: 1.4em;
+    color: #F5FAFA;
+    text-shadow: 2px 2px #868A8B;
+    text-decoration: underline;
+}
+
 a:hover {
     color: #FFDFD3;
 }
@@ -66,7 +74,7 @@ input[type=text] {
     color:#000000;
 }
 
-#buttons {
+.buttons {
     display: flex;
     justify-content: center;
     cursor: grab;
@@ -91,7 +99,7 @@ input[type=submit] {
     grid-column-gap: 10px;
     grid-row-gap: a;
     grid-auto-rows: minmax(75px, auto);
-    margin: 50px 10px 10px 10px;
+    margin: 25px 10px 10px 10px;
 }
 
 .homelinks {

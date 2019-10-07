@@ -47,6 +47,20 @@ router.put("/:id", (req, res) => {
     })
 });
 
+router.get("/edit/business/:name", (req, res) => {
+    Businesses.findOne({name: req.params.name})
+    .then(business => {
+        res.render("edit", business)
+    })
+});
+
+router.put("/business/:name", (req, res) => {
+    Businesses.findOneAndUpdate({name: req.params.name}, req.body, {new: true})
+    .then(business => {
+        res.redirect("/")
+    })
+});
+
 router.delete("/:id", (req, res) => {
     Businesses.findOneAndRemove({_id: req.params.id})
     .then(() => {
