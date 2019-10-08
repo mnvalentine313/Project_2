@@ -94,20 +94,29 @@ input[type=submit] {
 
 .container {
     display: grid;
+    /* justify-items: center; */
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 10px;
-    grid-row-gap: a;
+    grid-row-gap: 15px;
     grid-auto-rows: minmax(75px, auto);
     margin: 25px 10px 10px 10px;
 }
 
 .homelinks {
     padding: 10px;
+    align-self: start;
     border: 1px solid #FFDFD3;
     background-color: rgba(255, 225, 211, .4)
 }
 
 .pagedivs {
     margin: auto auto auto 15px;
+}
+
+img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    /* justify-items: center; */
 }

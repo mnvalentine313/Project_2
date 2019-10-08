@@ -8,7 +8,8 @@ const businessSchema = new mongoose.Schema({
     description: String,
     url: String,
     facebook: String,
-    instagram: String
+    instagram: String,
+    pic: String
   });
 
   const theBusinesses = mongoose.model("Business", businessSchema)
