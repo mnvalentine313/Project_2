@@ -8,6 +8,13 @@ This is the second, independent project completed in General Assmebly's Software
 ![image](BXPNW_Request-Response_Cycle_2.png)
 
 ![image](BXPNW_Request-Response_Cycle_1.png)
+
+##### User Stories
+The following sample user stories were taken into consideration when building the BXPNW app:
+* As a Black resident of the Seattle metropolitan area, I want an online resource to find black-owned businesses so that I may shop locally while supporting black-owned businesses.
+* As a Black resident of the Seattle metropolitan area, I want to be able to add to an online resource of black-owned businesses in order to spread the word when I find a worthy business.
+* As a Black resident of the Seattle metropolitan Seattle area, I want to be able to easily collaborate with other individuals seeking to support black-owned businesses because being able to utilize many experiences is better than one person’s.
+
  
 #### Brief Example
 Below is the initial wireframe for this project:
