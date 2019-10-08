@@ -4,6 +4,10 @@
 ---
 #### Description
 This is the second, independent project completed in General Assmebly's Software Engineering Immersive program and it covers building an app using Express, Handlebars, and Mongoose. This project also features some HTML and CSS for layout and styling.
+
+![image](BXPNW_Request-Response_Cycle_1.png)
+
+![image](BXPNW_Request-Response_Cycle_2.png)
  
 #### Brief Example
 Below is the initial wireframe for this project:
