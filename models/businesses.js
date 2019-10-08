@@ -9,7 +9,8 @@ const businessSchema = new mongoose.Schema({
     url: String,
     facebook: String,
     instagram: String,
-    pic: String
+    pic: String,
+    alt: String
   });
 
   const theBusinesses = mongoose.model("Business", businessSchema)

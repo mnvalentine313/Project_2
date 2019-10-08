@@ -8,7 +8,8 @@
         "url": "https://www.junebabyseattle.com",
         "facebook": "https://www.facebook.com/JuneBabySeattle/",
         "instagram": "https://www.instagram.com/junebabyseattle/",
-        "pic": "https://uploads.poachedjobs.com/wp-content/uploads/2017/05/23224908/Logo-300x300.png"
+        "pic": "https://uploads.poachedjobs.com/wp-content/uploads/2017/05/23224908/Logo-300x300.png", 
+        "alt": "JuneBaby Logo"
     },
     {
         "name": "Salare",
@@ -19,7 +20,8 @@
         "url": "https://salarerestaurant.com/",
         "facebook": "https://www.facebook.com/salarerestaurant",
         "instagram": "https://instagram.com/salareseattle",
-        "pic": "https://d253b1eioa5z7b.cloudfront.net/venue_images/medium_3b2906b6-1771-4ebf-ba1d-6d24cf97d602.jpg"
+        "pic": "https://d253b1eioa5z7b.cloudfront.net/venue_images/medium_3b2906b6-1771-4ebf-ba1d-6d24cf97d602.jpg",
+        "alt": "Salare Logo"
     },
     {
         "name": "Island Soul",
@@ -30,7 +32,8 @@
         "url": "https://www.islandsoulrestaurant.com/",
         "facebook": "https://www.facebook.com/135118209750",
         "instagram": "https://www.instagram.com/islandsoulshack",
-        "pic": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/50781430_10156360741459751_8505490849151320064_n.png?_nc_cat=109&_nc_eui2=AeEjCnINycnpZgPssYSjMtGvPvmF23rITYfa7HXjWve-r2TrctUQoCDPqvgYsOcG6Y7hwtHQZicmjKkWUM9MUV8rsjXtM6OeU_ZnyFDpfqdHdw&_nc_oc=AQkgthPd3fuibfMjb0Uh3PIfH1WCCqgToWZbOL9FGlUK7s9vnIFWETqcQPzXBDL8h6YDp8KHoEWyZ0qHGi2aOsWB&_nc_ht=scontent-sea1-1.xx&oh=445ea2245a59490ab22d3b8838f8cbb1&oe=5E3173E4"
+        "pic": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/50781430_10156360741459751_8505490849151320064_n.png?_nc_cat=109&_nc_eui2=AeEjCnINycnpZgPssYSjMtGvPvmF23rITYfa7HXjWve-r2TrctUQoCDPqvgYsOcG6Y7hwtHQZicmjKkWUM9MUV8rsjXtM6OeU_ZnyFDpfqdHdw&_nc_oc=AQkgthPd3fuibfMjb0Uh3PIfH1WCCqgToWZbOL9FGlUK7s9vnIFWETqcQPzXBDL8h6YDp8KHoEWyZ0qHGi2aOsWB&_nc_ht=scontent-sea1-1.xx&oh=445ea2245a59490ab22d3b8838f8cbb1&oe=5E3173E4",
+        "alt": "Island Soul logo"
     },
     {
         "name": "Plum Bistro",
@@ -41,7 +44,8 @@
         "url": "https://plumbistro.com/",
         "facebook": "https://www.facebook.com/PlumBistro/",
         "instagram": "https://www.instagram.com/plumbistro/",
-        "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQgiZ00jZxoopt5-5mrO4C3HE4HFRwV1GVU0wKbzdWh3cVoKtF"
+        "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQgiZ00jZxoopt5-5mrO4C3HE4HFRwV1GVU0wKbzdWh3cVoKtF",
+        "alt": "Plum Bistro Logo"
     },
     {
         "name": "Mr. Naturalz Salon",
@@ -52,7 +56,8 @@
         "url": "https://www.mrnaturalz.com/",
         "facebook": "https://www.facebook.com/mrnaturalz/",
         "instagram": "https://www.instagram.com/mrnaturalz",
-        "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNk_f3nnVzNdXfkCqsmB7XjGGRNPdVGs2Glv20noDmaqgg44PK"
+        "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNk_f3nnVzNdXfkCqsmB7XjGGRNPdVGs2Glv20noDmaqgg44PK",
+        "alt": "Sample hairstyle from Mr. Naturalz Salon"
     },
     {
         "name": "Andro Barbershop",
@@ -63,7 +68,8 @@
         "url": "https://www.androbarbershop.com/",
         "facebook": "https://www.facebook.com/Andro-Barbershop-179970068012706/",
         "instagram": "https://www.instagram.com/androbarbershop",
-        "pic": "https://mediad.publicbroadcasting.net/p/kplu/files/styles/x_large/public/201905/mural_inside_andro.jpg"
+        "pic": "https://mediad.publicbroadcasting.net/p/kplu/files/styles/x_large/public/201905/mural_inside_andro.jpg",
+        "alt": "Andro Barbershop Logo/painting of a bearded lady"
     },
     {
         "name": "Six17 Salon",
@@ -73,7 +79,8 @@
         "description": "Textured hair salon specializing in all varieties of coils, kinks, and curls.",
         "url": "https://www.vagaro.com/six17",
         "facebook": "https://www.facebook.com/six17salon",
-        "pic": "https://scontent-sea1-1.cdninstagram.com/vp/364a725cdcd61948b070ebbf9bd5e2c2/5DFC2F8A/t51.2885-19/s150x150/50572329_488165878674856_4230116468106199040_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com"
+        "pic": "https://scontent-sea1-1.cdninstagram.com/vp/364a725cdcd61948b070ebbf9bd5e2c2/5DFC2F8A/t51.2885-19/s150x150/50572329_488165878674856_4230116468106199040_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com",
+        "alt": "Six17 Salon's asymmetric Logo"
     },
     {
         "name": "Oshun Swim School",
@@ -84,7 +91,8 @@
         "url": "https://www.oshunswimschool.com/",
         "facebook": "https://www.facebook.com/Oshun-Swim-School-721313671553715",
         "instagram": "https://instagram.com/oshunswimschool",
-        "pic": "https://www.oshunswimschool.com/uploads/4/6/6/6/46667031/mermaids-996x515_1_orig.png"
+        "pic": "https://www.oshunswimschool.com/uploads/4/6/6/6/46667031/mermaids-996x515_1_orig.png",
+        "alt": "Oshun Swim School artwork"
     },
     {
         "name": "Trap Vinyasa",
@@ -95,7 +103,8 @@
         "url": "https://www.trapvinyasa.com/",
         "facebook": "https://www.facebook.com/trapvinyasa/",
         "instagram": "https://instagram.com/trapvinyasa",
-        "pic": "http://static1.squarespace.com/static/5906c0bd579fb3c5cc626744/5907b522e3df2803a2740fab/5b8e011b352f53facc3584aa/1536197525474/trapvinyasa_kovios_final-17.jpg?format=1500w"
+        "pic": "http://static1.squarespace.com/static/5906c0bd579fb3c5cc626744/5907b522e3df2803a2740fab/5b8e011b352f53facc3584aa/1536197525474/trapvinyasa_kovios_final-17.jpg?format=1500w",
+        "alt": "Founder of Trap Vinyasa in Horse Pose"
     },
     {
         "name": "Nile's Edge",
@@ -105,7 +114,8 @@
         "description": "Healing arts center focused on de-colonizing health and education so that under-served communities can holistically flourish.",
         "url": "https://www.nilesedge.com/",
         "facebook": "https://www.facebook.com/nilesedge/",
-        "pic": "https://static.wixstatic.com/media/726235_bd07ddd73b4c4130ad714d9727816a65~mv2_d_1581_1581_s_2.png/v1/fill/w_160,h_160,al_c,q_80,usm_0.66_1.00_0.01/NILES%20EDGE%20black%20.webp"
+        "pic": "https://static.wixstatic.com/media/726235_bd07ddd73b4c4130ad714d9727816a65~mv2_d_1581_1581_s_2.png/v1/fill/w_160,h_160,al_c,q_80,usm_0.66_1.00_0.01/NILES%20EDGE%20black%20.webp",
+        "alt": "Nile's Edge Logo"
     },
     {
         "name": "Laidback Allure",
@@ -116,6 +126,7 @@
         "url": "https://laidbackallure.com/",
         "facebook": "https://www.facebook.com/laidbackallure",
         "instagram": "https://instagram.com/laidbackallure",
-        "pic": "https://pbs.twimg.com/profile_images/907310223618011136/NEyzOLGz_400x400.jpg"
+        "pic": "https://pbs.twimg.com/profile_images/907310223618011136/NEyzOLGz_400x400.jpg",
+        "alt": "Laidback Allure Logo"
     }
 ]
