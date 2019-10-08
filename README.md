@@ -7,7 +7,7 @@ This is the second, independent project completed in General Assmebly's Software
  
 #### Brief Example
 Below is the wireframing for this project:
-![image]('img/BXPNW_wireframe.jpg')
+![image](img/BXPNW_wireframe.jpg)
  
 #### Features 
  
