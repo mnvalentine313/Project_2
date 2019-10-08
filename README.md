@@ -7,7 +7,11 @@ This is the second, independent project completed in General Assmebly's Software
  
 #### Brief Example
 Below is the wireframing for this project:
+<<<<<<< HEAD
 ![image](BXPNW_Wireframe.jpg)
+=======
+![image](img/BXPNW_wireframe.jpg)
+>>>>>>> 86ecf7f9ed5bece55bcdda22e8fc20874bae02eb
  
 #### Features 
 This app features full CRUD capability:
