@@ -6,17 +6,13 @@
 This is the second, independent project completed in General Assmebly's Software Engineering Immersive program and it covers building an app using Express, Handlebars, and Mongoose. This project also features some HTML and CSS for layout and styling.
  
 #### Brief Example
-Below is the wireframing for this project:
-<<<<<<< HEAD
+Below is the initial wireframe for this project:
 ![image](BXPNW_Wireframe.jpg)
-=======
-![image](img/BXPNW_wireframe.jpg)
->>>>>>> 86ecf7f9ed5bece55bcdda22e8fc20874bae02eb
  
 #### Features 
 This app features full CRUD capability:
 * Create: Allows users to "Add to the list" from the homepage.
-* Read: Allows users to view each business individually by clicking on the tile, or by visiting https://bxpnw.herokuapp.com/business/[business_name]
+* Read: Allows users to view each business individually by clicking on the tile, or by visiting bxpnw.herokuapp.com/business/[business_name]
 * Update: Allows users to update individual entries from that entry's page.
 * Delete: Allows users to delete any entry on the page.
  

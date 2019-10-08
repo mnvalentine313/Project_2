@@ -1,7 +1,7 @@
 <h1>Editing: {{ this.name }}</h1>
 
 <section class="pagedivs">
-<a href="/{{this.id}}" class="home">I've made a mistake! Take me Home, please.</a>
+<a href="/" class="home">I've made a mistake! Take me Home, please.</a>
 
 <form action="/{{this.id}}?_method=put" method="post">
   <p>
@@ -33,9 +33,10 @@
     <input type="text" value="{{this.instagram}}" name="instagram"/>
   </p>
   <p>
-    <label>Pic: </label></br>
-    <input type="text" value="Paste the Image Address here" name="pic"/>
+    <label>Pic (paste the Image Address here): </label></br>
+    <input type="text" value="{{this.pic}}" name="pic"/>
   </p>
+  <a href="/{{this.id}}" class="home">Cancel</a>
   <div class="buttons"><input type="submit" value="Update" />
 </form>
 </br>
