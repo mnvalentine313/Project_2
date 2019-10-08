@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-// mongoose.connect("mongodb://localhost/businesses");
 mongoose.Promise = Promise;
 
 let mongoURI = "";
