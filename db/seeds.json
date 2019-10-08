@@ -33,6 +33,17 @@
         "pic": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/50781430_10156360741459751_8505490849151320064_n.png?_nc_cat=109&_nc_eui2=AeEjCnINycnpZgPssYSjMtGvPvmF23rITYfa7HXjWve-r2TrctUQoCDPqvgYsOcG6Y7hwtHQZicmjKkWUM9MUV8rsjXtM6OeU_ZnyFDpfqdHdw&_nc_oc=AQkgthPd3fuibfMjb0Uh3PIfH1WCCqgToWZbOL9FGlUK7s9vnIFWETqcQPzXBDL8h6YDp8KHoEWyZ0qHGi2aOsWB&_nc_ht=scontent-sea1-1.xx&oh=445ea2245a59490ab22d3b8838f8cbb1&oe=5E3173E4"
     },
     {
+        "name": "Plum Bistro",
+        "type": "Restaurant",
+        "owner": "Makini Howell",
+        "neighborhood": "Capitol Hill",
+        "description": "Artful, upscale vegan fare for herbivores and carnivores alike.",
+        "url": "https://plumbistro.com/",
+        "facebook": "https://www.facebook.com/PlumBistro/",
+        "instagram": "https://www.instagram.com/plumbistro/",
+        "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQgiZ00jZxoopt5-5mrO4C3HE4HFRwV1GVU0wKbzdWh3cVoKtF"
+    },
+    {
         "name": "Mr. Naturalz Salon",
         "type": "Salons/Barbers",
         "owner": "Rueben 'Rue Styles' Turk",
