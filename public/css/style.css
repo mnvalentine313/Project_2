@@ -1,5 +1,5 @@
 body {
-    background-color: #B1D6D8;   
+    background-color: #b1d6d8;
 }
 
 body::after {
@@ -11,17 +11,19 @@ body::after {
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1;   
+    z-index: -1;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-  }
+}
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: "Dokdo", cursive;
-    color: #000000; 
-    text-shadow: 2px 2px #FFDFD3;
+    color: #000000;
+    text-shadow: 2px 2px #ffdfd3;
     margin: 0 auto;
     text-align: center;
 }
@@ -38,24 +40,28 @@ h3 {
     font-size: 1.75em;
 }
 
-a, p, b, #text, label {
+a,
+p,
+b,
+#text,
+label {
     font-family: "Economica", sans-serif;
     font-size: 1.4em;
-    color: #F5FAFA;
-    text-shadow: 2px 2px #868A8B;
+    color: #f5fafa;
+    text-shadow: 2px 2px #868a8b;
     text-decoration: none;
 }
 
 .home {
     font-family: "Economica", sans-serif;
     font-size: 1.4em;
-    color: #F5FAFA;
-    text-shadow: 2px 2px #868A8B;
+    color: #f5fafa;
+    text-shadow: 2px 2px #868a8b;
     text-decoration: underline;
 }
 
 a:hover {
-    color: #FFDFD3;
+    color: #ffdfd3;
 }
 
 .update {
@@ -65,13 +71,13 @@ a:hover {
     justify-content: center;
 }
 
-input[type=text] {
+input[type="text"] {
     width: 70%;
     margin: 8px 0;
     font-family: "Economica", sans-serif;
     font-size: 1em;
-    background-color:rgba(255, 225, 211, .5);
-    color:#000000;
+    background-color: rgba(255, 225, 211, 0.5);
+    color: #000000;
 }
 
 .buttons {
@@ -80,16 +86,16 @@ input[type=text] {
     cursor: grab;
 }
 
-input[type=submit] {
-    font-family: "Dokdo", cursive;    
-    background-color: #FFDFD3;
+input[type="submit"] {
+    font-family: "Dokdo", cursive;
+    background-color: #ffdfd3;
     border: none;
     color: #000000;
     margin: 15px;
     padding: 10px;
     font-size: 22px;
     text-align: center;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 .container {
@@ -105,8 +111,8 @@ input[type=submit] {
 .homelinks {
     padding: 10px;
     align-self: start;
-    border: 1px solid #FFDFD3;
-    background-color: rgba(255, 225, 211, .4)
+    border: 1px solid #ffdfd3;
+    background-color: rgba(255, 225, 211, 0.4);
 }
 
 .pagedivs {

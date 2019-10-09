@@ -11,8 +11,8 @@ const businessSchema = new mongoose.Schema({
     instagram: String,
     pic: String,
     alt: String
-  });
+});
 
-  const theBusinesses = mongoose.model("Business", businessSchema)
-  
-  module.exports = theBusinesses;
+const theBusinesses = mongoose.model("Business", businessSchema);
+
+module.exports = theBusinesses;

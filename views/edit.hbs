@@ -1,50 +1,50 @@
 <h1>Editing: {{ this.name }}</h1>
 
 <section class="pagedivs">
-<a href="/" class="home">I've made a mistake! Take me Home, please.</a>
+  <a href="/" class="home">I've made a mistake! Take me Home, please.</a>
 
-<form action="/{{this.id}}?_method=put" method="post">
-  <p>
-    <label>Business Type: </label><br>
-    <input type="text" value="{{this.type}}" name="type"/>
-  </p>
+  <form action="/{{this.id}}?_method=put" method="post">
     <p>
-    <label>Owned by: </label><br>
-    <input type="text" value="{{this.owner}}" name="owner"/>
-  </p>
+      <label>Business Type: </label><br>
+      <input type="text" value="{{this.type}}" name="type" />
+    </p>
     <p>
-    <label>Location: </label><br>
-    <input type="text" value="{{this.neighborhood}}" name="neighborhood"/>
-  </p>
-  <p>
-    <label>Description: </label><br>
-    <input type="text" value="{{this.description}}" name="description"/>
-  </p>
+      <label>Owned by: </label><br>
+      <input type="text" value="{{this.owner}}" name="owner" />
+    </p>
     <p>
-    <label>Website: </label><br>
-    <input type="text" value="{{this.url}}" name="url"/>
-  </p>
+      <label>Location: </label><br>
+      <input type="text" value="{{this.neighborhood}}" name="neighborhood" />
+    </p>
     <p>
-    <label>Facebook: </label><br>
-    <input type="text" value="{{this.facebook}}" name="facebook"/>
-  </p>
-  <p>
-    <label>Instagram: </label><br>
-    <input type="text" value="{{this.instagram}}" name="instagram"/>
-  </p>
-  <p>
-    <label>Pic (paste the Image Address here): </label><br>
-    <input type="text" value="{{this.pic}}" name="pic"/>
-  </p>
-  <p>
-    <label>Alt Text (enter alt text for screen readers here): </label><br>
-    <input type="text" value="{{this.alt}}" name="alt"/>
-  </p>
-  <a href="/{{this.id}}" class="home">Cancel</a>
-  <div class="buttons"><input type="submit" value="Update" />
-</form>
-<br>
-<form action="/{{this.id}}?_method=delete" method="post">
-  <input type="submit" value="Remove"></div>
-</form>
+      <label>Description: </label><br>
+      <input type="text" value="{{this.description}}" name="description" />
+    </p>
+    <p>
+      <label>Website: </label><br>
+      <input type="text" value="{{this.url}}" name="url" />
+    </p>
+    <p>
+      <label>Facebook: </label><br>
+      <input type="text" value="{{this.facebook}}" name="facebook" />
+    </p>
+    <p>
+      <label>Instagram: </label><br>
+      <input type="text" value="{{this.instagram}}" name="instagram" />
+    </p>
+    <p>
+      <label>Pic (paste the Image Address here): </label><br>
+      <input type="text" value="{{this.pic}}" name="pic" />
+    </p>
+    <p>
+      <label>Alt Text (enter alt text for screen readers here): </label><br>
+      <input type="text" value="{{this.alt}}" name="alt" />
+    </p>
+    <a href="/{{this.id}}" class="home">Cancel</a>
+    <div class="buttons"><input type="submit" value="Update" />
+  </form>
+  <br>
+  <form action="/{{this.id}}?_method=delete" method="post">
+    <input type="submit" value="Remove"></div>
+  </form>
 </section>
