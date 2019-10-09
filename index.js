@@ -5,17 +5,17 @@ const express = require("express");
 const hbs = require("hbs");
 // Install and require body-parser
 const parser = require("body-parser");
-const methodOverride = require("method-override")
+const methodOverride = require("method-override");
 
 // Tell to run Express
-app = express()
+app = express();
 
 // Require up business controller
-const businessController = require("./controllers/businesses")
+const businessController = require("./controllers/businesses");
 
 // Set up all app uses
 app.set("view engine", "hbs");
-app.use(parser.urlencoded({ extended: true}));
+app.use(parser.urlencoded({ extended: true }));
 app.use(methodOverride("_method"));
 
 // Everything but the port goes above this!
@@ -26,5 +26,5 @@ app.use(express.static("public"));
 app.set("port", process.env.PORT || 8080);
 
 app.listen(app.get("port"), () => {
-  console.log(`PORT: ${app.get("port")}`);
+    console.log(`PORT: ${app.get("port")}`);
 });
